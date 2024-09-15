@@ -7,7 +7,7 @@ class ErrorScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var poductCubit = BlocProvider.of<GetPrductCubit>(context);
+    var productCubit = BlocProvider.of<GetPrductCubit>(context);
 
     return Container(
       color: Colors.white,
@@ -24,7 +24,7 @@ class ErrorScreen extends StatelessWidget {
             ),
             ElevatedButton(
                 onPressed: () {
-                  poductCubit.getProductData();
+                  productCubit.getProductData();
                 },
                 child: const Text('Try Again')),
           ],
