@@ -1,5 +1,5 @@
 import 'package:elevate_task/cubit/get%20product%20cubit/get_cubit_product.dart';
-import 'package:elevate_task/widgets/product_widget.dart';
+import 'package:elevate_task/screens/product_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
